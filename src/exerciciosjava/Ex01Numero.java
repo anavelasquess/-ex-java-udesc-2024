@@ -2,7 +2,7 @@ package exerciciosjava;
 
 import java.util.Scanner;
 
-public class Numero {
+public class Ex01Numero {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
