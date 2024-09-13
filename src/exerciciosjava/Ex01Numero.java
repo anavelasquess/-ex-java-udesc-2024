@@ -9,12 +9,11 @@ public class Ex01Numero {
         System.out.print("Digite um número inteiro: ");
         int numero = scanner.nextInt();
 
-        int sucessor = numero + 1;
-        int antecessor = numero - 1;
+
 
         // Exibir resultados
-        System.out.println("O sucessor de " + numero + " é " + sucessor);
-        System.out.println("O antecessor de " + numero + " é " + antecessor);
+        System.out.println("O sucessor de " + numero + " é " + (numero +1));
+        System.out.println("O antecessor de " + numero + " é " + (numero-1));
 
         scanner.close();
     }
